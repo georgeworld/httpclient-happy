@@ -1,0 +1,10 @@
+#login_button {
+    -fx-font-weight: bold;
+    -fx-color: red;
+}
+
+#infoShow{
+    -fx-border-color: #666666;
+    -fx-border-style: solid;
+    -fx-border-width: 1px;
+}

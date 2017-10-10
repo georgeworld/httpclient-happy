@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane id="MainPanel" 
+            maxHeight="1000" maxWidth="1000" minHeight="300" minWidth="300" 
+            prefHeight="500.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml" fx:controller="com.georgeinfo.summary.hc.FXMLController">
+    <top>
+        <Button layoutX="126" layoutY="90" text="登录OSCHINA" onAction="#handleButtonAction" 
+                fx:id="login_button" BorderPane.alignment="CENTER" />
+    </top>
+    <center>
+        <TextArea layoutX="0" layoutY="0" minHeight="300" minWidth="300" fx:id="infoShow" BorderPane.alignment="CENTER"/>
+    </center>
+    <bottom>
+        <Label layoutX="126" layoutY="120" minHeight="16" minWidth="69" fx:id="label" BorderPane.alignment="CENTER"/>
+    </bottom>
+</BorderPane>
